@@ -69,12 +69,15 @@ nav .menu__link .menu__list:hover a {
   text-align: center;
   height: 100%;
   width: 100%;
+  margin-top: 2rem;
 }
 .hero span {
   font-family: "Courgette";
   font-size: 3.75rem;
   line-height: 1.1;
   color: white;
+
+  
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
@@ -444,12 +447,11 @@ i.fa-arrow-right {
   gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
   padding-block: 2rem;
-  width: min(95%, 70rem);
+  width: min(90%, 70rem);
   margin-inline: auto;
 }
 .our__menu__single--card {
-  /* background-color: lightseagreen; */
-  padding: 25px;
+ width: 100%;
   border: 2px solid white;
   /* box-shadow: 0 0 20px rgba(0, 0, 0,0.5); */
   border-radius: 8px;
@@ -1112,7 +1114,7 @@ button:hover {
   }
 }
 /* Footer galery will ajdust when it reaches this limit */
-@media(max-width:26rem){
+/* @media(max-width:26rem){
   .single__footer--content .galary__container{
     
     display: flex;
@@ -1120,4 +1122,4 @@ button:hover {
   }.galary__items{
     width: 100%;
   }
-}
+} */
