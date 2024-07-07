@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+/* .container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+} */
+.hero {
+    height: 35rem;
+    background: url('https://preview.colorlib.com/theme/pato/images/bg-title-page-01.jpg.webp')center/ cover no-repeat;
+    display: flex;
+}
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero  h2 {
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.375rem;
+}
+.main-menu {
+    background: url('https://preview.colorlib.com/theme/pato/images/icons/pattern1.png')center/ cover repeat;
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+.categories {
+    display: flex;
+    gap: 100px;
+    
+}
+.category {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+}
+.category-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.category-items h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1875rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(34,34,34);
+}
+.category-item-info {
+    display: flex;
+    flex-direction: column;
+}
+.category-item-details {
+    display: flex;
+    gap: 5px;
+}
+.category-item-details a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: rgb(51,51,51);
+    letter-spacing: 0.125rem;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.category-item-details .line {
+    background-image: url('https://preview.colorlib.com/theme/pato/images/icons/pattern3.png');
+    background-repeat: repeat;
+    color: #5f6ad4;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 8.6875rem;
+    height: 2px;
+    flex-grow: 1;
+    margin-top: 20px;
+    
+}
+.category-item-details .price {
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-top: 20px; */
+    
+}
+.category-item-info span {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* Lunch and dinner Sections */
+.header-lunch{
+
+    height: 395px;
+    background: url('https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp') top/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    background-attachment: fixed;
+    
+}
+.header-lunch h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.items img {
+    width: 160px;
+    height: 120px;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+}
+.items img:hover {
+    transform: scale(1.1);
+}
+.items {
+    display: flex;
+    gap: 20px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.text a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    /* margin-bottom: 3px; */
+    text-transform: uppercase;
+}
+.text a:hover{
+    color: rgb(236, 29, 37);
+}
+.text .description {
+    color: rgb(102, 102, 102);
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.text .price {
+    margin-top: 5px;
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.header-dinner{
+    height: 395px;
+    background: url('https://preview.colorlib.com/theme/pato/images/header-menu-02.jpg.webp') top/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    background-attachment: fixed;
+    
+}
+.header-dinner h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* signup */
+.signup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    background: url('https://preview.colorlib.com/theme/pato/images/icons/pattern1.png')center/ cover repeat;
+  }
+  .signup-label{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: 10px;
+  }
+  .signup-input{
+    width: 266px;
+    height: 46px;
+    padding: 0px 20px;
+    outline-color: rgb(102, 102, 102);
+    position: relative;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+  .fa-envelope{
+    position: absolute;
+    right: 41%;
+    color: #666666;
+    cursor: pointer;
+    
+  }
+  .signup-button{
+    margin-left: 15px;
+    width: 170px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+ /* Responsive */
+ @media (max-width:991px){
+    
+    .categories {
+        flex-direction: column;
+        /* margin-inline: auto; */
+    }
+    .list {
+        grid-template-columns: 1fr
+    }
+    .signup {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fa-envelope {
+        right: 35%;
+        padding-bottom: 15px;
+    }
+    
+ }
+ @media (max-width:576px){
+    .fa-envelope {
+        right: 25%;
+        padding-bottom: 15px;
+    }
+    .category-item-details {
+        flex-direction: column;
+    }
+    .category-item-details .line {
+        display: none;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+ }
