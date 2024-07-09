@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <!-- fontAwsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header>
+        <div class="hamburger"></div>
+        <!-- Desktop menue -->
+        <nav class="container desktop__menu">
+          <!-- logo -->
+          <div class="logo">
+            <img src="./asset/logo.png.webp" alt="" />
+          </div>
+          <ul class="menu__link">
+            <li class="menu__list">
+              <a href="#">HOME</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">MENU</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">RESERVATION</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">ABOUT</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">BLOG</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
+          <div class="social__media">
+            <i class="fa fa-tripadvisor"></i>
+  
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa fa-grip-lines modal__open"></i>
+          </div>
+        </nav>
+        <!-- mobile menu -->
+        <nav class="mobile__menu">
+          <i class="modal__close">x</i>
+          <ul class="menu__link">
+            <li class="menu__list">
+              <a href="#">HOME</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">MENU</a>
+            </li>
+  
+            <li class="menu__list">
+              <a href="home.html">ABOUT</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">BLOG</a>
+            </li>
+            <li class="menu__list">
+              <a href="#">CONTACT</a>
+            </li>
+            <button class="reservation__btn">RESERVATION</button>
+          </ul>
+          <h2 class="galary__title">GALARY</h2>
+          <div class="galary__container">
+            <div class="galary__items item1"></div>
+            <div class="galary__items item2"></div>
+            <div class="galary__items item3"></div>
+            <div class="galary__items item4"></div>
+            <div class="galary__items item5"></div>
+            <div class="galary__items item6"></div>
+          </div>
+        </nav>
+        <section class="hero">
+          <i class="fa fa-angle-left arraw"></i> <br />
+          <i class="fa fa-angle-right arraw--right"></i>
+          <div class="container hero__container">
+            
+            <h2>ABOUT US</h2>
+            <!-- <button class="hero__btn">LOOK MENU</button>
+            <div class="circles">
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+              <i class="fa fa-circle"></i>
+            </div> -->
+          </div>
+        </section>
+      </header>
+    <main>
+      <section id="about">
+        <div class="about__container">
+          <span class="reusable__sub-title"> Somali Restuarent </span>
+          <h2 class="reusable__title">Our Story</h2>
+          <p class="about__pra">
+            Fusce at risus eget mi auctor pulvinar. Suspendisse maximus
+            venenatis pretium. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Aliquam purus purus,
+            lacinia a scelerisque in, luctus vel felis. Donec odio diam,
+            dignissim a efficitur at, efficitur et est. Pellentesque semper est
+            ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Nulla et leo
+            accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed
+            luctus mattis.
+          </p>
+        </div>
+      </section>
+
+      <section id="coverVideo">
+        <div class="video__container">
+          <div class="video__cover--content">
+            <p class="reusable__span">Discover</p>
+            <h2>OUR VIDEO</h2>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0-wWsP6szIo?si=FFHtsKqm0_TlmwS2"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              class="dugsiye__video"
+            ></iframe>
+            <i class="fa-regular fa-circle-play"> </i>
+          </div>
+        </div>
+      </section>
+
+      <section id="history">
+        <div class="history__content container">
+          <div class="history__description">
+            <span class="reusable__span">Delicious </span>
+            <h2 class="history__titile">RECIPES</h2>
+            <p>
+              Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.
+              Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi,
+              ac facilisis ligula sem id neque.
+            </p>
+          </div>
+          <div class="history__image">
+            <img
+              src="./asset/our-story-01.jpg.webp"
+              class="history-image"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="history__content container">
+          <div class="history__image">
+            <img src="./asset/our-story.jpg" class="history-image" alt="" />
+          </div>
+          <div class="history__description">
+            <span class="reusable__span">Romantic </span>
+            <h2 class="history__titile">Restaurant</h2>
+            <p>
+              Fusce iaculis, quam quis volutpat cursus, tellus quam varius eros,
+              in euismod lorem nisl in ante. Maecenas imperdiet vulputate dui
+              sit amet vestibulum. Nulla quis suscipit nisl.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="background">
+        <div class="bacground--img"></div>
+      </section>
+      <section id="chef">
+        <div class="our__cheves--content">
+          <div class="meet__chef">
+            <span class="reusable__sub-title"> meet our </span>
+            <h2 class="reusable__title">CHEF</h2>
+          </div>
+         
+          <div class="cheves container">
+              <div class="siingle__chef">
+                <div class="chef__img">
+                    <img src="./asset/undraw_female_avatar_efig.svg" alt="" />
+                </div>
+                <div class="chef__description">
+                  
+                    <h3>Peter Hart</h3>
+                    <p>CHEFT</p>
+                    <p>
+                      Donec porta eleifend mauris ut effici-tur. Quisque non velit
+                      vestibulum, lob-ortis mi eget, rhoncus nunc
+                    </p>
+                    </div>
+                
+          </div>
+          <div class="siingle__chef">
+            <div class="chef__img">
+                <img src="./asset/undraw_female_avatar_efig.svg" alt="" />
+            </div>
+            <div class="chef__description">
+                  
+                <h3>Peter Hart</h3>
+                <p>CHEFT</p>
+                <p>
+                  Donec porta eleifend mauris ut effici-tur. Quisque non velit
+                  vestibulum, lob-ortis mi eget, rhoncus nunc
+                </p>
+                </div>
+        </div>
+        <div class="siingle__chef">
+            <div class="chef__img">
+                <img src="./asset/undraw_female_avatar_efig.svg" alt="" />
+            </div>
+            <div class="chef__description">
+                  
+                <h3>Jon Doe</h3>
+                <p>CHEFT</p>
+                <p>
+                  Donec porta eleifend mauris ut effici-tur. Quisque non velit
+                  vestibulum, lob-ortis mi eget, rhoncus nunc
+                </p>
+                </div>
+      </section>
+      <section id="signUp">
+        <div class="news__signUp container">
+          <h2 class="signup__title">Specials Sign up</h2>
+          <input type="email" placeholder="Email" id="input__sign" />
+          <i class="fa fa-solid fa-envelope"></i>
+          <button class="signup__btn">Sign Up</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer__container">
+          <!-- first card -->
+          <div class="single__footer--content">
+            <h2 class="footer__content--titile">Contact Us</h2>
+            <div class="social__icons">
+              <p>
+                <i class="fa fa-light fa-location-dot"></i>
+                8th floor, 379 Royal St, Alberta , AB 10018
+              </p>
+  
+              <p><i class="fa fa-phone"></i> (+1) 96 716 6879</p>
+              <p>
+                <i class="fa fa-envelope-open-text"> </i>
+                dugsiye@site.com
+              </p>
+            </div>
+            <h2 class="openning__times">OPENNING TIMES</h2>
+            <p>
+              09:30 AM - 11:00 PM <br />
+              Every Day
+            </p>
+          </div>
+          <!-- second card -->
+          <div class="single__footer--content">
+            <h2 class="footer__content--titile">LATEST TWITTER</h2>
+            <div class="social__icons">
+              <p>
+                <i class="fa-brands fa-twitter"></i>
+                <span class="red"> @colorlib</span> Activello is a good option. It
+                has a slider built into that displays
+                <span class="red">https://buff.ly/2zaSfAQ</span>
+              </p>
+              <br />
+  
+              <p>21 Dec 2017</p>
+              <br />
+              <p>
+                <i class="fa-brands fa-twitter"></i>
+                <span class="red"> @colorlib</span> Activello is a good option. It
+                has a slider built into that displays
+                <span class="red">https://buff.ly/2zaSfAQ</span>
+              </p>
+            </div>
+            <br />
+            <p>21 Dec 2017</p>
+          </div>
+          <!-- third card -->
+          <div class="single__footer--content">
+            <h2 class="footer__content--titile">GALERRY</h2>
+            <div class="galary__container">
+              <div class="galary__items item1"></div>
+              <div class="galary__items item2"></div>
+              <div class="galary__items item3"></div>
+              <div class="galary__items item4"></div>
+              <div class="galary__items item5"></div>
+              <div class="galary__items item6"></div>
+              <div class="galary__items item6"></div>
+              <div class="galary__items item6"></div>
+              <div class="galary__items item6"></div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="copyright__icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </p>
+          <p class="copyright__text">&#169; Copyright Team 4 Group E 2024</p>
+        </div>
+      </footer>
+    <script src="home.js"></script>
+  </body>
+</html>
+

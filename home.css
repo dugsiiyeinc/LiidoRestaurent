@@ -61,7 +61,7 @@ nav .menu__link .menu__list:hover a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero .container {
+.hero__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
