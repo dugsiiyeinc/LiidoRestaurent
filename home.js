@@ -1,3 +1,17 @@
+function changeColor() {
+   let navBarColor = document.querySelector('.desktop__menu');
+   let scrollValue = window.scrollY;
+   if (scrollValue <=150) {
+      navBarColor.classList.remove('navColor');
+
+   }
+   else {
+      navBarColor.classList.add('navColor');
+      console.log(scrollValue);
+   }
+
+}
+window.addEventListener('scroll', changeColor)
 // Grap all variable needed
 let mobile = document.querySelector('.mobile__menu');
 let openMobile = document.querySelector('.modal__open');
@@ -42,4 +56,3 @@ function changeColor() {
    }
 
 }
-window.addEventListener('scroll', changeColor)
