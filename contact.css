@@ -1,0 +1,111 @@
+.booking {
+  padding: 5rem 0;
+  background-color: #efefef;
+}
+
+.booking {
+  position: relative;
+}
+.booking p {
+  font-family: Courgette;
+  align-items: center;
+  margin-left: 500px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  padding: 1rem 0;
+}
+.bookh2 {
+  font-family: Poppins;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: #222222;
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  padding: 1rem 0;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(79, 73, 73, 0.1), rgba(0, 0, 20, 0.1)),
+    url("./asset/stake.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.hero .fa {
+  display: none;
+}
+
+.map {
+  align-items: center;
+  margin: 0 400px;
+}
+
+.title-contact {
+  margin: 20px 20px;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+#area-1 {
+  height: 150px;
+  width: 800px;
+  /* margin-top: -200px;
+    margin-left: 200px; */
+}
+.text-area {
+  margin-top: -300px;
+  margin-left: 50px;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5rem;
+  background-color: black;
+  width: 8.4375rem;
+  height: 2.8rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  border-radius: 0.625rem;
+  position: relative;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+button:hover {
+  background-color: rgb(219, 47, 47);
+}

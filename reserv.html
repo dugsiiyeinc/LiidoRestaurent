@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reserv.css" />
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  </head>
+  <body>
+    <header>
+      
+      
+      <nav class="container desktop__menu">
+        
+        <div class="logo">
+          <img src="./asset/logo.png.webp" alt="" />
+        </div>
+        <ul class="menu__link">
+          <li class="menu__list">
+            <a href="#">HOME</a>
+          </li>
+          <li class="menu__list">
+            <a href="#">MENU</a>
+          </li>
+          <li class="menu__list">
+            <a href="#">RESERVATION</a>
+          </li>
+          <li class="menu__list">
+            <a href="#">ABOUT</a>
+          </li>
+          <li class="menu__list">
+            <a href="#">BLOG</a>
+          </li>
+          <li class="menu__list">
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+        <div class="social__media">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa fa-tripadvisor"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa fa-grip-lines modal__open"></i>
+        </div>
+      </nav>
+      
+      </nav>
+      <section class="hero">
+        <i class="fa fa-angle-left arraw"></i> <br />
+        <i class="fa fa-angle-right arraw--right"></i>
+        <div class="container">
+          <h2>RESERVATION</h2>
+          
+          
+        </div>
+      </section>
+    </header>
+    <section>
+      <div class="booking">
+        <p>Reservation</p>
+        <h2 class="bookh2">BOOK TABLE</h2>
+        <div class="form__content">
+          <form id="reservForm">
+            <div class="form-row">
+              <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div>
+                <label for="Time">Time</label>
+
+                <select id="time" name="time" required>
+                  <option value="">Time</option>
+                  <option value="09:00">09:00</option>
+                  <option value="09:30">09:30</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:30">10:30</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:30">11:30</option>
+                </select>
+              </div>
+              <div>
+                <label for="people"> People</label>
+                <select id="people" name="people" required>
+                  <option value="">People</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="Phone"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="btn">BOOK TABLE</button>
+          </form>
+        </div>
+      </div>
+      <div class="pr-parent">
+        <div class="pr-1">
+          <h2>RESERVE BY PHONE</h2>
+          <p>
+            Donec quis euismod purus. Donec feugiat ligula rhoncus, varius nisl
+            sed, tincidunt lectus. Nulla vulputate, lectus vel volutpat
+            efficitur, orci lacus sodales sem, sit amet quam:
+            <span> (001) 345 6889</span>
+          </p>
+        </div>
+        <div class="pr-2">
+          <h2>FOR EVENT BOOKING</h2>
+          <p>
+            Donec feugiat ligula rhoncus: <span>(001) 345 6889</span> , varius
+            nisl sed, tincidunt lectus sodales sem.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer__container">
+        <!-- first card -->
+        <div class="single__footer--content">
+          <h2 class="footer__content--titile">Contact Us</h2>
+          <div class="social__icons">
+            <p>
+              <i class="fa fa-light fa-location-dot"></i>
+              8th floor, 379 Royal St, Alberta , AB 10018
+            </p>
+
+            <p><i class="fa fa-phone"></i> (+1) 96 716 6879</p>
+            <p>
+              <i class="fa fa-envelope-open-text"> </i>
+              dugsiye@site.com
+            </p>
+          </div>
+          <h2 class="openning__times">OPENNING TIMES</h2>
+          <p>
+            09:30 AM - 11:00 PM <br />
+            Every Day
+          </p>
+        </div>
+        <!-- second card -->
+        <div class="single__footer--content">
+          <h2 class="footer__content--titile">LATEST TWITTER</h2>
+          <div class="social__icons">
+            <p>
+              <i class="fa-brands fa-twitter"></i>
+              <span class="red"> @colorlib</span> Activello is a good option. It
+              has a slider built into that displays
+              <span class="red">https://buff.ly/2zaSfAQ</span>
+            </p>
+            <br />
+
+            <p>21 Dec 2017</p>
+            <br />
+            <p>
+              <i class="fa-brands fa-twitter"></i>
+              <span class="red"> @colorlib</span> Activello is a good option. It
+              has a slider built into that displays
+              <span class="red">https://buff.ly/2zaSfAQ</span>
+            </p>
+          </div>
+          <br />
+          <p>21 Dec 2017</p>
+        </div>
+        <!-- third card -->
+        <div class="single__footer--content">
+          <h2 class="footer__content--titile">GALERRY</h2>
+          <div class="galary__container">
+            <div class="galary__items item1"></div>
+            <div class="galary__items item2"></div>
+            <div class="galary__items item3"></div>
+            <div class="galary__items item4"></div>
+            <div class="galary__items item5"></div>
+            <div class="galary__items item6"></div>
+            <div class="galary__items item6"></div>
+            <div class="galary__items item6"></div>
+            <div class="galary__items item6"></div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright__icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </p>
+        <p class="copyright__text">&#169; Copyright Team 4 Group E 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
