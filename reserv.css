@@ -1,0 +1,136 @@
+.hero {
+  background: url("./asset/stake.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero i {
+  display: none;
+}
+.booking {
+  padding: 5rem 0;
+  background-color: #efefef;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.hero .fa {
+  display: none;
+}
+.booking {
+  position: relative;
+}
+.booking p {
+  font-family: Courgette;
+  align-items: center;
+  margin-left: 500px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  padding: 1.5rem 0;
+}
+.bookh2 {
+  font-family: Poppins;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: #222222;
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  padding: 1rem 0;
+}
+
+.btn {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5rem;
+  background-color: black;
+  width: 8.4375rem;
+  height: 2.8rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Montserrat";
+  border-radius: 0.625rem;
+  position: relative;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+button:hover {
+  background-color: rgb(219, 47, 47);
+}
+::placeholder {
+  color: #666666;
+}
+
+.pr-parent {
+  display: flex;
+  justify-content: space-around;
+  background-color: #efefef;
+  padding-bottom: 50px;
+}
+
+.pr-1 {
+  width: 600px;
+}
+.pr-1 h2 {
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 22px;
+  line-height: 24px;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.pr-2 {
+  width: 500px;
+}
+
+.pr-2 h2 {
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 22px;
+  line-height: 24px;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.pr-1 p {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #666;
+}
+
+.pr-2 p {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #222;
+}
+
+span {
+  color: red;
+}
