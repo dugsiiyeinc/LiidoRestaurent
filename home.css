@@ -1000,7 +1000,9 @@ button:hover {
   top:0;
   z-index: 11;
 }
-
+#time, #people, #date,#name,#email,#phone {
+  padding-left: 18px;
+}
 /* Media quary for heaser moble,and desktop */
 @media (max-width: 48rem) {
   .desktop__menu .menu__link {
