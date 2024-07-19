@@ -19,22 +19,22 @@
         </div>
         <ul class="menu__link">
           <li class="menu__list">
-            <a href="#">HOME</a>
+            <a href="home.html">HOME</a>
           </li>
           <li class="menu__list">
-            <a href="#">MENU</a>
+            <a href="menu.html">MENU</a>
           </li>
           <li class="menu__list">
-            <a href="#">RESERVATION</a>
+            <a href="reserv.html">RESERVATION</a>
           </li>
           <li class="menu__list">
-            <a href="#">ABOUT</a>
+            <a href="about.html">ABOUT</a>
           </li>
           <li class="menu__list">
-            <a href="#">BLOG</a>
+            <a href="blog.html">BLOG</a>
           </li>
           <li class="menu__list">
-            <a href="#">CONTACT</a>
+            <a href="contact.html">CONTACT</a>
           </li>
         </ul>
         <div class="social__media">
@@ -45,88 +45,110 @@
         </div>
       </nav>
       
+      <!-- </nav> no need this clossing tag alone -->
+       <!-- mobile menu -->
+       <nav class="mobile__menu">
+        <i class="modal__close">x</i>
+        <ul class="menu__link">
+          <li class="menu__list">
+            <a href="home.html">HOME</a>
+          </li>
+          <li class="menu__list">
+            <a href="menu.html">MENU</a>
+          </li>
+
+          <li class="menu__list">
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li class="menu__list">
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li class="menu__list">
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <button class="reservation__btn">RESERVATION</button>
+        </ul>
+        <h2 class="galary__title">GALARY</h2>
+        <div class="galary__container">
+          <div class="galary__items item1"></div>
+          <div class="galary__items item2"></div>
+          <div class="galary__items item3"></div>
+          <div class="galary__items item4"></div>
+          <div class="galary__items item5"></div>
+          <div class="galary__items item6"></div>
+        </div>
       </nav>
       <section class="hero">
-        <i class="fa fa-angle-left arraw"></i> <br />
-        <i class="fa fa-angle-right arraw--right"></i>
-        <div class="container hero__container">
-          <h2>CONTACT</h2>
-         
+        <!-- <i class="fa fa-angle-left arraw"></i> <br />
+        <i class="fa fa-angle-right arraw--right"></i> -->
+        <div class="hero__container">
+            <h2 class="hero__title">CONTACT</h2>
         </div>
       </section>
     </header>
-    <section>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.86586817778!2d45.265465235612716!3d2.0592860452861084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58425955ce6b53%3A0xbb20eaaa52cc59d9!2sMogadishu%2C%20Somalia!5e0!3m2!1sen!2suk!4v1720809662433!5m2!1sen!2suk"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <div class="title-contact">
-            <h1>SEND US A MESSAGE</h1>
+   <!-- All the pages has the main and should apply to -->
+    <main>
+      <section id="contacts">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63795.86586817778!2d45.265465235612716!3d2.0592860452861084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d58425955ce6b53%3A0xbb20eaaa52cc59d9!2sMogadishu%2C%20Somalia!5e0!3m2!1sen!2suk!4v1720809662433!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="title-contact">
+              <h1>SEND US A MESSAGE</h1>
+          </div>
+          <div class="form__content">
+              <form id="reservForm">
+                <div class="form-row">
+                  <div>
+                    <label for="name" id="comon">Name</label>
+                    <input type="text" id="comon" placeholder="Name" />
+                  </div>
+                  <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="comon" placeholder="Email" />
+                  </div>
+                  <div>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="comon" name="phone"requiredplaceholder="Phone"/>
+                  </div>
+                </div>
+                  <div class="text-area">
+                    <label for="">Message</label>
+                    <textarea name="" id="area-1"></textarea>
+                    
+                </div>
+                <button type="submit" class="contact__btn">Submit</button>
+              </form>
+          </div>
         </div>
-        
-        <div class="form__content">
-            <form id="reservForm">
-              
-            
-              <div class="form-row">
-                <div>
-                  <label for="name">Name</label>
-                  <input type="text" id="name" placeholder="Name" />
-                </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input type="email" id="email" placeholder="Email" />
-                </div>
-                <div>
-                  <label for="phone">Phone</label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    required
-                    placeholder="Phone"
-                  />
-                </div>
-               
-            </form>
-           
-          
-        
-        </div>
-
-      </div>
-      <div class="text-area">
-        <label for="">Message</label>
-        <textarea name="" id="area-1"></textarea>
-        
+    
+      
     </div>
-    <button type="submit" class="book__btn">Submit</button>
-  </div>
-
-  <div class="contact-footer">
-    <div class="left-contact">
-        <h2>LOCATION</h2>
-        <p>8th floor, 379 Hudson St,<br> New York, NY 10018</p>
-    </div>
-    <div class="middle-contact">
-        <h2>CALL US</h2>
-        <p>(+1) 96 716 6879</p>
-    </div>
-    <div class="right-contact">
-        <h2>OPENING HOURS</h2>
-        <p>09:30 AM – 11:00 PM <br>
-            Every Day</p>
-    </div>
-  </div>
-
   
-    </section>
+    <div class="contact__footer">
+      <div class="contact__item item1">
+          <h2> <i class="fa fa-light fa-location-dot"></i> &nbsp; &nbsp;LOCATION</h2>
+          <p>8th floor, 379 Hudson St,<br> New York, NY 10018</p>
+      </div>
+      <div class="contact__item item2">
+          <h2> <i class="fa fa-phone"></i> &nbsp; &nbsp;  CALL US</h2>
+          <p>(+1) 96 716 6879</p>
+      </div>
+      <div class="contact__item item3">
+          <h2><i class="fa fa-clock"></i> &nbsp; &nbsp;OPENING HOURS</h2>
+          <p>09:30 AM – 11:00 PM <br>
+              Every Day</p>
+      </div>
+    </div>
+  
+    
+      </section>
+    </main>
     <footer id="footer">
       <div class="footer__container">
         
@@ -198,5 +220,6 @@
         <p class="copyright__text">&#169; Copyright Team 4 Group E 2024</p>
       </div>
     </footer>
+    <script src="home.js"></script>
   </body>
 </html>

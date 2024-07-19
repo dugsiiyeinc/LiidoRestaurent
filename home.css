@@ -725,6 +725,12 @@ input, select {
   border: 1px solid #ccc;
   border-radius: 8px;
 }
+#time{
+  width: 250px;
+}
+#name{
+  width: 230px;
+}
 .book__btn {
   display: inline;
   justify-content: center;
@@ -860,6 +866,7 @@ button:hover {
     cursor: pointer;
     transform: scale(1.2); 
   }
+ 
 /* blog section */
 #blog{
   padding: 2rem 0;
@@ -1087,6 +1094,13 @@ button:hover {
   }
   form input{
     width: 100%;
+  }
+  .book__btn{
+    width: 250px;
+    height: 55px;
+  }
+  .booking__img{
+    margin-top: 2rem;
   }
   .video__cover--content h2{
    text-align: center;

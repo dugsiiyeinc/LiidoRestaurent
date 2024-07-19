@@ -4,38 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reservation</title>
+    <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="reserv.css" />
-    <link rel="stylesheet" href="home.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      
-      
       <nav class="container desktop__menu">
-        
         <div class="logo">
           <img src="./asset/logo.png.webp" alt="" />
         </div>
         <ul class="menu__link">
           <li class="menu__list">
-            <a href="#">HOME</a>
+            <a href="home.html">HOME</a>
           </li>
           <li class="menu__list">
-            <a href="#">MENU</a>
+            <a href="menu.html">MENU</a>
           </li>
           <li class="menu__list">
-            <a href="#">RESERVATION</a>
+            <a href="reserv.html">RESERVATION</a>
           </li>
           <li class="menu__list">
-            <a href="#">ABOUT</a>
+            <a href="about.html">ABOUT</a>
           </li>
           <li class="menu__list">
-            <a href="#">BLOG</a>
+            <a href="blog.html">BLOG</a>
           </li>
           <li class="menu__list">
-            <a href="#">CONTACT</a>
+            <a href="contact.html">CONTACT</a>
           </li>
         </ul>
         <div class="social__media">
@@ -45,78 +48,114 @@
           <i class="fa fa-grip-lines modal__open"></i>
         </div>
       </nav>
-      
+
+      <!-- mobile menu -->
+      <nav class="mobile__menu">
+        <i class="modal__close">x</i>
+        <ul class="menu__link">
+          <li class="menu__list">
+            <a href="home.html">HOME</a>
+          </li>
+          <li class="menu__list">
+            <a href="menu.html">MENU</a>
+          </li>
+
+          <li class="menu__list">
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li class="menu__list">
+            <a href="blog.html">BLOG</a>
+          </li>
+          <li class="menu__list">
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <button class="reservation__btn">RESERVATION</button>
+        </ul>
+        <h2 class="galary__title">GALARY</h2>
+        <div class="galary__container">
+          <div class="galary__items item1"></div>
+          <div class="galary__items item2"></div>
+          <div class="galary__items item3"></div>
+          <div class="galary__items item4"></div>
+          <div class="galary__items item5"></div>
+          <div class="galary__items item6"></div>
+        </div>
       </nav>
+
+      <!-- </anv> where this come from ?? -->
       <section class="hero">
         <i class="fa fa-angle-left arraw"></i> <br />
         <i class="fa fa-angle-right arraw--right"></i>
         <div class="container">
-          <h2>RESERVATION</h2>
-          
-          
+          <h2 class="hero__title">RESERVATION</h2>
         </div>
       </section>
     </header>
     <section>
       <div class="booking">
-        <p>Reservation</p>
-        <h2 class="bookh2">BOOK TABLE</h2>
-        <div class="form__content">
-          <form id="reservForm">
-            <div class="form-row">
-              <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date" required />
-              </div>
-              <div>
-                <label for="Time">Time</label>
+        <div class="booking__content">
+          <div class="booking__titile--subtitle">
+            <p>Reservation</p>
+            <h2 class="bookh2">BOOK TABLE</h2>
+          </div>
+          <div class="form__content">
+            <form id="reservForm">
+              <div class="form-row">
+                <div>
+                  <label for="date">Date</label>
+                  <input type="date" id="date" name="date" required />
+                </div>
+                <div>
+                  <label for="Time">Time</label>
 
-                <select id="time" name="time" required>
-                  <option value="">Time</option>
-                  <option value="09:00">09:00</option>
-                  <option value="09:30">09:30</option>
-                  <option value="10:00">10:00</option>
-                  <option value="10:30">10:30</option>
-                  <option value="11:00">11:00</option>
-                  <option value="11:30">11:30</option>
-                </select>
+                  <select id="time" name="time" required>
+                    <option value="">Time</option>
+                    <option value="09:00">09:00</option>
+                    <option value="09:30">09:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="people"> People</label>
+                  <select id="people" name="people" required>
+                    <option value="">People</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
               </div>
-              <div>
-                <label for="people"> People</label>
-                <select id="people" name="people" required>
-                  <option value="">People</option>
-                  <option value="0">0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                </select>
-              </div>
-            </div>
 
-            <div class="form-row">
-              <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Name" />
+              <div class="Booking__details">
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Name" />
+                </div>
+                &nbsp;&nbsp;
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Email" />
+                </div>
+                <div>
+                  <label for="phone">Phone</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="Phone"
+                  />
+                </div>
               </div>
-              <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Email" />
-              </div>
-              <div>
-                <label for="phone">Phone</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                  placeholder="Phone"
-                />
-              </div>
-            </div>
 
-            <button type="submit" class="btn">BOOK TABLE</button>
-          </form>
+              <button type="submit" class="btn">BOOK TABLE</button>
+            </form>
+          </div>
         </div>
       </div>
       <div class="pr-parent">
@@ -209,5 +248,6 @@
         <p class="copyright__text">&#169; Copyright Team 4 Group E 2024</p>
       </div>
     </footer>
+    <script src="home.js"></script>
   </body>
 </html>
