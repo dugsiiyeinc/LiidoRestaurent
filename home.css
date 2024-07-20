@@ -165,9 +165,9 @@ nav .menu__link .menu__list:hover a {
   margin-bottom: 2rem;
   
 }
-.fa-grip-lines{
+/* .fa-grip-lines{
   display: none;
-}
+} */
 /* MOBLE MENU */
 .mobile__menu {
   width: 100%;
@@ -183,6 +183,9 @@ nav .menu__link .menu__list:hover a {
   z-index: 100;
   position: fixed;
  
+}
+.a__reserv{
+  text-decoration: none;
 }
 
 .mobile__menu ul {
@@ -1012,15 +1015,11 @@ button:hover {
   top:0;
   z-index: 11;
 }
-<<<<<<< HEAD
- a{
-  text-decoration: none;
- }
-=======
+
 #time, #people, #date,#name,#email,#phone {
   padding-left: 18px;
 }
->>>>>>> 948521efeabc4d894dfccb5715d50ee2c6fab79b
+
 /* Media quary for heaser moble,and desktop */
 @media (max-width: 48rem) {
   .desktop__menu .menu__link {

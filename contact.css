@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.fa-grip-lines{
+  display: none;
+}
 .hero1 {
   height: 35rem;
   background: url('./asset/stake.jpg')center/ cover no-repeat;
