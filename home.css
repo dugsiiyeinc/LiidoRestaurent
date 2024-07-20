@@ -165,6 +165,9 @@ nav .menu__link .menu__list:hover a {
   margin-bottom: 2rem;
   
 }
+.A{
+  text-decoration: none;
+}
 /* .fa-grip-lines{
   display: none;
 } */
